@@ -1,9 +1,13 @@
-#firstHeader{
-color: red;
-font-weight: bold;
+Body{
+Background-color: red;
 }
 
-.greenText{
+.greenFood{
 color: green;
 font-style: italic;
+}
+
+Li{
+Display:inline;
+Font-size:30px;
 }
