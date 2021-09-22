@@ -2,12 +2,9 @@ Body{
 Background-color: red;
 }
 
-.greenFood{
+ul li{
 color: green;
 font-style: italic;
-}
-
-Li{
 Display:inline;
 Font-size:30px;
 }
