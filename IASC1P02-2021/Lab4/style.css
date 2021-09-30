@@ -1,8 +1,8 @@
-Body{
+body{
 Background-position:center;
 Background-color:blue;
 }
-Img{
+img{
   padding: 10px;
   border-style: dashed;
   border-width: 1px;
