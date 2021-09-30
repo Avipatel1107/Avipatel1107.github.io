@@ -10,7 +10,7 @@ img{
 }
 
 p.redPara{
-text-color: red;
+color: red;
 border-style: dashed;
 border-width: 1px;
 border-color: green;
