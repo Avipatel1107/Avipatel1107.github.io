@@ -2,3 +2,7 @@ Body{
 Background-position:center;
 Background-color:blue;
 }
+p.three {
+  border-style: dashed;
+  border-width: 1px;
+}
