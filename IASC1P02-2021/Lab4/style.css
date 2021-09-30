@@ -8,3 +8,11 @@ img{
   border-width: 1px;
   border-color: white;
 }
+
+p.redPara{
+text-color: red;
+border-style: dashed;
+border-width: 1px;
+border-color: green;
+
+}
