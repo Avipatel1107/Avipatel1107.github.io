@@ -3,7 +3,8 @@ Background-position:center;
 Background-color:blue;
 }
 Img{
+  padding: 30px;
   border-style: dashed;
   border-width: 1px;
-Border-color:white;
+  border-color: white;
 }
