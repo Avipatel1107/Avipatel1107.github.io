@@ -33,3 +33,15 @@ Font-size:25px;
 .super sup{
 Color:red;
 }
+
+.small{
+    position:relative;
+    right:-1210px;
+Color:purple;
+Font-size:5px;
+    padding: 5px;
+}
+
+.small e{
+Color:yellow
+}
