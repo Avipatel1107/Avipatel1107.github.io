@@ -12,7 +12,7 @@ img{
   border-color: white;
 }
 
-.redPara{
+p.redPara{
 color:red;
 border-style: dashed;
 border-width: 1px;
