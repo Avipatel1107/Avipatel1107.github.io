@@ -1,0 +1,31 @@
+Body{
+Background-color:green;
+}
+
+.myDiv {
+  border: 5px dotted;
+   margin: 10px; 
+   
+}
+
+.myDiv p{
+Color:red;
+   position: relative;
+    left:10px;
+    padding:4px;
+}
+
+.myDiv1 p{
+Color:#006400;
+    position: relative;
+    left:10px;
+    padding: 4px;
+    
+}
+
+.final{
+Color:purple;
+Padding:5px;
+    position:relative;
+    right:10px;
+}
