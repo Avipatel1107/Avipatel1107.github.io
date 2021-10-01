@@ -1,6 +1,16 @@
-.myDiv {
-  border: 5px outset red;
-  Border-style: dotted;
-Border-color:purple;   
-  text-align: center;
+.main {
+        border: 2px dotted purple;
+        height: 200px;
+        width: 1100px;
+        margin:0px 10%;
+        position: relative;
+        text-align: center;
+      }
+
+#bottom{
+font-size: 12px;
+position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 15px 0;
 }
