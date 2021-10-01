@@ -21,3 +21,15 @@ Font-size:7px;
 Text-align:center;
     padding:5px;
 }
+
+.super{
+    position:relative;
+    left:120px;
+Color:orange;
+Font-size:25px;
+    padding:20px;
+}
+
+.super sup{
+Color:red;
+}
