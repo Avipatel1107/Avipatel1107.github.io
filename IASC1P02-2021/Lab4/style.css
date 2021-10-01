@@ -1,8 +1,13 @@
-body{
+<_--body{
 background-position: center;
 Background-color: blue;
 Border: solid;
 margin: 20px 10% 20px 10%
+}-->
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
 }
 img{
   padding: 10px;
