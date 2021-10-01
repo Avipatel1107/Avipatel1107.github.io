@@ -1,16 +1,23 @@
 .main {
         border: 2px dotted purple;
         height: 200px;
-        width: 1100px;
+        width: 1133px;
         margin:0px 10%;
         position: relative;
         text-align: center;
       }
 
 #bottom{
-font-size: 12px;
+font-size: 10px;
 position: absolute;
         bottom: 0;
         width: 100%;
         padding: 15px 0;
+}
+
+.main2{
+Color:green;
+Font-size:7px;
+Text-align:center;
+    padding:5px;
 }
