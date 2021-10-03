@@ -1,4 +1,8 @@
 Header{
 Color:white;
 Background-color:red;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px
+   
 }
