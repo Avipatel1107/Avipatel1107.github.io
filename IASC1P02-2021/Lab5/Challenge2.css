@@ -1,3 +1,46 @@
 Body{
 Background-color:green;
 }
+.header{
+Background-color:red;
+    height: 70px;
+    text-align: center;
+    font-size:10px;  
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+    border-collapse: collapse;
+}
+
+#red{
+Background-color:red;
+    height: 70px;
+    text-align: center;
+    width:800px;  
+    height:70px;
+}
+#pink{
+Background-color:pink;
+    height: 70px;
+    width:200px
+    
+}
+#orange{
+Background-color:orange;
+    height: 70px;
+   
+}
+#blue{
+Background-color:blue;
+    height: 70px;
+    height:400px;
+  
+}
+#yellow{
+Background-color:yellow;
+    height: 70px;
+    height:100px;
+    
+}
