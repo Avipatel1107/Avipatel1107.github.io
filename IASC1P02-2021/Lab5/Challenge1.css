@@ -3,6 +3,23 @@ Color:white;
 Background-color:red;
     text-align: center;
     font-size: 30px;
-    padding: 20px
+    padding: 20px;
    
+}
+
+P{
+Background-color:green;
+Color:white;
+    height: 500px;
+    margin: 0 auto;
+    padding:10px;
+    font-size:12px;
+}
+
+Footer{
+Color:white;
+    height:100px;
+Background-color:blue;
+    padding:10px;
+    font-size: 10px;
 }
