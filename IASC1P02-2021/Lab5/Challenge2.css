@@ -1,12 +1,7 @@
 Body{
 Background-color:green;
 }
-.header{
-Background-color:red;
-    height: 70px;
-    text-align: center;
-    font-size:10px;  
-}
+
 
 table.center {
   margin-left: auto; 
@@ -16,6 +11,8 @@ table.center {
 
 #red{
 Background-color:red;
+    vertical-align: top;
+    font-size:25px;
     height: 70px;
     text-align: center;
     width:800px;  
@@ -23,23 +20,29 @@ Background-color:red;
 }
 #pink{
 Background-color:pink;
-    height: 70px;
+    vertical-align: top;
+    padding: 10px;
+    height: 50px;
     width:200px
     
 }
 #orange{
 Background-color:orange;
-    height: 70px;
+    vertical-align: top;
+    padding: 10px;
+    height: 50px;
    
 }
 #blue{
 Background-color:blue;
+    vertical-align: top;
     height: 70px;
     height:400px;
   
 }
 #yellow{
 Background-color:yellow;
+    vertical-align: top;
     height: 70px;
     height:100px;
     
