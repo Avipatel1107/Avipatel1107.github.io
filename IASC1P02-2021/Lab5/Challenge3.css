@@ -1,25 +1,37 @@
-Header{
-Color:white;
-Background-color:red;
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-   
-}
-
-P{
+Body{
 Background-color:green;
-Color:white;
-    height: 500px;
-    margin: 0 auto;
-    padding:10px;
-    font-size:12px;
+}
+.box1 {
+  float: left;
+ 
+  height: 250px;
+    width:250px;
+    background-color: blue;
+    margin-left: 200px;
 }
 
-Footer{
-Color:white;
-    height:100px;
-Background-color:blue;
-    padding:10px;
-    font-size: 10px;
+.box2 {
+  float: right;
+
+  height: 250px;
+    width:250px;
+    background-color: red;
+    margin-right: 200px;
 }
+
+
+
+.box3 {
+    
+  float: left;  
+   margin-left:100px;
+    margin-top:270px;
+  height: 250px;
+    width:250px;
+    background-color: yellow;
+}
+.box3 p{
+    position:absolute;
+    top:260px;
+}
+
