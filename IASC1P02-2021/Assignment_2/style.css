@@ -73,6 +73,7 @@ table.center {
 
 #red{
 Background-color:red;
+Border:4px solid black;
     vertical-align: top;
     font-size:25px;
     height: 70px;
@@ -82,6 +83,7 @@ Background-color:red;
 }
 #pink{
 Background-color:pink;
+Border:4px solid black;
     vertical-align: top;
     padding: 10px;
     height: 50px;
@@ -90,6 +92,7 @@ Background-color:pink;
 }
 #orange{
 Background-color:orange;
+Border:4px solid black;
     vertical-align: top;
     padding: 10px;
     height: 50px;
@@ -97,6 +100,7 @@ Background-color:orange;
 }
 #blue{
 Background-color:blue;
+Border:4px solid black;
     vertical-align: top;
     height: 70px;
     height:400px;
@@ -104,6 +108,7 @@ Background-color:blue;
 }
 #yellow{
 Background-color:yellow;
+Border:4px solid black;
     vertical-align: top;
     height: 70px;
     height:100px;
