@@ -23,6 +23,7 @@ Text-transform: capitalize;
 color:#66ff99;
 }
 
-Img{
-Border-width:2px solid black;
+img{
+Border:2px solid black;
+Border-radius:4px;
 }
