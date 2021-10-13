@@ -30,8 +30,8 @@ Border-radius:4px;
 
 .relative {
   position: relative;
-  width: 800px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
   border: 5px solid red;
 } 
 .absolute {
