@@ -13,16 +13,16 @@ Font-family:myFirstFont;
   src: url(Cadillac.ttf);
 }
 
-P1{
+.p1{
 Text-transform:uppercase;
 Font-color:#ff7733;
 }
 
-P2{
+.p2{
 Text-transform: capitalize;
 Font-color:#66ff99;
 }
 
 Img{
-Border-width:2px;
+Border-width:2px solid black;
 }
