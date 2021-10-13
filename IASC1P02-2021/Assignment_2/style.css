@@ -8,6 +8,10 @@ Text-align: center;
 Font-family:myFirstFont;
 }
 
+h2 h3 h4 h5{
+Font-color:#e6b3ff
+}
+
 @font-face {
   font-family: myFirstFont;
   src: url(Cadillac.ttf);
