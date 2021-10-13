@@ -15,12 +15,12 @@ Font-family:myFirstFont;
 
 .p1{
 Text-transform:uppercase;
-Font-color:#ff7733;
+color:#ff7733;
 }
 
 .p2{
 Text-transform: capitalize;
-Font-color:#66ff99;
+color:#66ff99;
 }
 
 Img{
