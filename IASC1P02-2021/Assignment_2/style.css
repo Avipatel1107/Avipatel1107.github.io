@@ -51,5 +51,12 @@ Border-radius:4px;
   bottom: 0;
   right: 0;
   width: 300px;
-  border: 5px solid purple;
+ 
+}
+.fixed p{
+ border: 5px solid purple;
+height: 50px;
+  width: 50px;
+  background-color: yellow;
+  border-radius: 50%;
 }
