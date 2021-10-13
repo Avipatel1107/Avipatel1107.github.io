@@ -1,8 +1,14 @@
 Body{
-Background-color:#66b3ff;
+Background-color: #66b3ff;
 }
 h1{
 Color:red;
 Font-size:36px;
-Text-align:center;
+Text-align: center;
+Font-family:myFirstFont;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Cadillac.ttf);
 }
