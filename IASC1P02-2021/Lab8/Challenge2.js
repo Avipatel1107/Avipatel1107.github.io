@@ -10,9 +10,9 @@ function mix(){
 	var second = "#BB9320";
 	var third = "#AB00FF";
 	
-	document.body.style.color="first";
-	document.body.style.color="second";
-	document.body.style.color="third";
-	return false;
-}
+	document.getElementById("blue").style.color='first';
+	document.getElementById("green").style.color='second';
+	document.getElementById("red").style.color='third';
+
+	}
 
