@@ -7,9 +7,13 @@ document.getElementById("red").style.color="red";
 //A function to change colours of elements when called
 function mix(){
 
-	document.getElementById("blue").style.color='#00BB00';
-	document.getElementById("green").style.color='#BB9320';
-	document.getElementById("red").style.color='#AB00FF';
+	var first="#00BB00";
+	var second="#BB9320";
+	var third="#AB00FF";
+	
+	document.getElementById("blue").style.color=first;
+	document.getElementById("green").style.color=second;
+	document.getElementById("red").style.color=third;
 
 	}
 
