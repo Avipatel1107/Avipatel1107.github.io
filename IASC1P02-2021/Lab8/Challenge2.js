@@ -1,7 +1,4 @@
-//Sets the initial colours of the three elements on page load
-document.getElementById("blue").onclick=mix;
-document.getElementById("green").onclick=mix;
-document.getElementById("red").onclick=mix;
+
 
 //A function to change colours of elements when called
 function mix(){
