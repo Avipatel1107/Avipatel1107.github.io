@@ -1,0 +1,96 @@
+ body{
+        color:white;
+        background-color:white;
+} #wrapper{
+        width:1010px;
+        margin:0 auto;
+        background-color:red;
+} #header{
+        text-align:center;
+  border:white 5px solid;
+}
+#header h2{
+  font-size:32px;
+}
+#header p{
+  text-align:left;
+  font-size:30px;
+  position:relative;
+  bottom:75px;
+  left:15px;
+} #leftbody{
+  color:black;
+  font-size:20px;
+        float:left;
+        width:180px;
+        height:500px;
+        background-color:green;
+        padding:5px;
+  border:white 5px solid;
+}
+#subheader{
+  text-align:center;
+  font-size:24px;
+  color:black;
+  float:right;
+  width:790px;
+  height:40px;
+  background:blue;
+  padding:5px;
+  border:white 5px solid;
+}
+#equipment{
+  color:black;
+        float:right;
+        width:385px;
+        height:210px;
+        background:orange;
+        padding:5px;
+  border:white 5px solid;
+}
+#accessories{
+  color:black;
+        float:right;
+        width:385px;
+        height:210px;
+        background:orange;
+        padding:5px;
+  border:white 5px solid;
+}
+#supplies{
+  color:black;
+        float:right;
+        width:385px;
+        height:210px;
+        background:orange;
+        padding:5px;
+  border:white 5px solid;
+}
+#parts{
+  color:black;
+        float:right;
+        width:385px;
+        height:210px;
+        background:orange;
+        padding:5px;
+  border:white 5px solid;
+}
+#bottom{
+        text-align:center;
+        height:50px;
+        clear:both;
+  font-size:14px;
+  border:white 5px solid;
+}
+#bottom p{
+  text-align:right;
+  position:relative;
+  bottom:10px;
+  right:5px;
+} h3{
+  font-size:18px;
+}
+li{
+  font-size:14px;
+}
+height:75px;
