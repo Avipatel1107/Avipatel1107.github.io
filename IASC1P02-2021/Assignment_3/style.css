@@ -1,11 +1,11 @@
  body{
         color:white;
         background-color:white;
-} #wrapper{
+} #wrap{
         width:1010px;
         margin:0 auto;
         background-color:red;
-} #header{
+} #head{
         text-align:center;
   border:white 5px solid;
 }
@@ -18,7 +18,8 @@
   position:relative;
   bottom:75px;
   left:15px;
-} #leftbody{
+} 
+#left{
   color:black;
   font-size:20px;
         float:left;
@@ -28,7 +29,7 @@
         padding:5px;
   border:white 5px solid;
 }
-#subheader{
+#slogan{
   text-align:center;
   font-size:24px;
   color:black;
@@ -39,7 +40,7 @@
   padding:5px;
   border:white 5px solid;
 }
-#equipment{
+#e1{
   color:black;
         float:right;
         width:385px;
@@ -48,7 +49,7 @@
         padding:5px;
   border:white 5px solid;
 }
-#accessories{
+#some1{
   color:black;
         float:right;
         width:385px;
@@ -57,7 +58,7 @@
         padding:5px;
   border:white 5px solid;
 }
-#supplies{
+#sup{
   color:black;
         float:right;
         width:385px;
@@ -66,7 +67,7 @@
         padding:5px;
   border:white 5px solid;
 }
-#parts{
+#psome{
   color:black;
         float:right;
         width:385px;
@@ -82,12 +83,8 @@
   font-size:14px;
   border:white 5px solid;
 }
-#bottom p{
-  text-align:right;
-  position:relative;
-  bottom:10px;
-  right:5px;
-} h3{
+
+h3{
   font-size:18px;
 }
 li{
