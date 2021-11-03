@@ -1,11 +1,13 @@
  body{
         color:white;
         background-color:white;
-} #wrap{
+} 
+#wrap{
         width:1010px;
         margin:0 auto;
-        background-color:red;
-} #head{
+        Background-color:blue;
+} 
+#head{
         text-align:center;
   border:white 5px solid;
 }
@@ -25,7 +27,7 @@
         float:left;
         width:180px;
         height:500px;
-        background-color:green;
+        Background-color:red;
         padding:5px;
   border:white 5px solid;
 }
@@ -36,7 +38,7 @@
   float:right;
   width:790px;
   height:40px;
-  background:blue;
+  Background:yellow;
   padding:5px;
   border:white 5px solid;
 }
@@ -45,7 +47,7 @@
         float:right;
         width:385px;
         height:210px;
-        background:orange;
+        Background:pink;
         padding:5px;
   border:white 5px solid;
 }
@@ -54,7 +56,7 @@
         float:right;
         width:385px;
         height:210px;
-        background:orange;
+        Background:pink;
         padding:5px;
   border:white 5px solid;
 }
@@ -63,7 +65,7 @@
         float:right;
         width:385px;
         height:210px;
-        background:orange;
+        Background:pink;
         padding:5px;
   border:white 5px solid;
 }
@@ -72,7 +74,7 @@
         float:right;
         width:385px;
         height:210px;
-        background:orange;
+        Background:pink;
         padding:5px;
   border:white 5px solid;
 }
