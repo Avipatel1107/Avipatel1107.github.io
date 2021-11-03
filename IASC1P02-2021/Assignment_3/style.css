@@ -2,18 +2,22 @@
         color:white;
         background-color:white;
 } 
+
 #wrap{
         width:1010px;
         margin:0 auto;
         Background-color:blue;
 } 
+
 #head{
         text-align:center;
   border:white 5px solid;
 }
+
 #head h2{
   font-size:32px;
 }
+
 #head p{
   text-align:left;
   font-size:30px;
@@ -21,6 +25,7 @@
   bottom:75px;
   left:15px;
 } 
+
 #left{
   color:black;
   font-size:20px;
@@ -31,6 +36,7 @@
         padding:5px;
   border:white 5px solid;
 }
+
 #slogan{
   text-align:center;
   font-size:24px;
@@ -42,6 +48,7 @@
   padding:5px;
   border:white 5px solid;
 }
+
 #e1{
   color:black;
         float:right;
@@ -51,6 +58,7 @@
         padding:5px;
   border:white 5px solid;
 }
+
 #some1{
   color:black;
         float:right;
@@ -60,6 +68,7 @@
         padding:5px;
   border:white 5px solid;
 }
+
 #sup{
   color:black;
         float:right;
@@ -69,6 +78,7 @@
         padding:5px;
   border:white 5px solid;
 }
+
 #psome{
   color:black;
         float:right;
@@ -78,6 +88,7 @@
         padding:5px;
   border:white 5px solid;
 }
+
 #footer{
         text-align:center;
         height:50px;
