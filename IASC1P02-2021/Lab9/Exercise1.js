@@ -1,5 +1,5 @@
 
-fvar start = new Date();
+var start = new Date();
 var startMilli = start.getTime();
 
 console.log(startMilli);
