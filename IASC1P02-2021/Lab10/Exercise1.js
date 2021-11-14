@@ -1,31 +1,23 @@
-function add(){
-
-  var num1 = parseInt(document.getElementById("num1").value);
-  var num2 = parseInt(document.getElementById("num2").value);
-
-  document.getElementById("output").innerHTML = num1 + num2;
+function addingMech(){
+  var firstValue = Number(document.getElementById('value1').value);
+  var secondValue = Number(document.getElementById('value2').value);
+  document.getElementById("outputs").innerHTML =  firstValue + secondValue;
 }
 
-function subtract(){
-
-  var num1 = parseInt(document.getElementById("num1").value);
-  var num2 = parseInt(document.getElementById("num2").value);
-
-  document.getElementById("output").innerHTML = num1 - num2;
+function subtractionMech(){
+  var firstValue = Number(document.getElementById('value1').value);
+  var secondValue = Number(document.getElementById('value2').value);
+  document.getElementById("outputs").innerHTML = firstValue - secondValue;
 }
 
-function multiply(){
-
-  var num1 = parseInt(document.getElementById("num1").value);
-  var num2 = parseInt(document.getElementById("num2").value);
-
-  document.getElementById("output").innerHTML = num1 * num2;
+function multiplicationMech(){
+  var firstValue = Number(document.getElementById('value1').value);
+  var secondValue = Number(document.getElementById('value2').value);
+  document.getElementById("outputs").innerHTML = firstValue * secondValue;
 }
 
-function divide(){
-
-  var num1 = parseInt(document.getElementById("num1").value);
-  var num2 = parseInt(document.getElementById("num2").value);
-
-  document.getElementById("output").innerHTML = num1 / num2;
+function divisionMech(){
+  var firstValue = Number(document.getElementById('value1').value);
+  var secondValue = Number(document.getElementById('value2').value);
+  document.getElementById("outputs").innerHTML = firstValue / secondValue;
 }
