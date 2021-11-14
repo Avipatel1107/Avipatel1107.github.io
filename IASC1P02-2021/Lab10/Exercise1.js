@@ -1,27 +1,16 @@
+function math(type) {
 
-function Name(){
-  document.getElementsByName("onLoad").innerHTML = onLoad;
+var num1 = parseInt(document.getElementById("num1").value);
+var num2 = parseInt(document.getElementById("num2").value);
+
+if(type == "add") {
+	document.getElementById("output").innerHTML = num1 + num2;
+} else if (type == "subtract") {
+	document.getElementById("output").innerHTML = num1 - num2;
+} else if (type == "multiply") {
+	document.getElementById("output").innerHTML = num1 * num2;
+} else if (type == "divide") {
+	document.getElementById("output").innerHTML = num1 / num2;
 }
 
-var elementOne = document.getElementById("firstNumber");
-var elementTwo = document.getElementById("secondNumber");
-
-function sum() {
-  var calculation = Number(elementOne.value) + Number(elementTwo.value);
-  document.getElementById("Answer").innerHTML = calculation;
-}
-
-function difference() {
-  var calculation = Number(elementOne.value) - Number(elementTwo.value);
-  document.getElementById("Answer").innerHTML = calculation;
-}
-
-function product() {
-  var calculation = Number(elementOne.value) * Number(elementTwo.value);
-  document.getElementById("Answer").innerHTML = calculation;
-}
-
-function quotient() {
-  var calculation = Number(elementOne.value) / Number(elementTwo.value);
-  document.getElementById("Answer").innerHTML = calculation;
 }
