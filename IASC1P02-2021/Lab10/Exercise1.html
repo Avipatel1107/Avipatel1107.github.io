@@ -9,10 +9,20 @@
     <script type="text/javascript" src="Exercise1.js"></script>
 </head>
 
-<body>
+<body onLoad="functionName()">onload</body>
 
-	<button type="button" name="button" onclick="stopTime()"> STOP TIME </button>
-	
+<form name="Mathematics">
+<input type="text" name="firstNumber" id="firstNumber"/>
+
+<button type="button" id="addition" onclick="sum()">+</button>
+<button type="button" id="subtraction" onclick="difference()">-</button>
+<button type="button" id="multiplication" onclick="product()">x</button>
+<button type="button" id="division" onclick="quotient()">/</button>
+
+<input type="text" name="secondNumber" id="secondNumber"/>
+</form>
+<p id="Answer"> Output Here</p>
+
 </body>
 
 </html>
