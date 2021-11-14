@@ -1,16 +1,27 @@
 
-var start = new Date();
-var startMilli = start.getTime();
+function Name(){
+  document.getElementsByName("onLoad").innerHTML = onLoad;
+}
 
-console.log(startMilli);
+var elementOne = document.getElementById("firstNumber");
+var elementTwo = document.getElementById("secondNumber");
 
-function stopTime() {
-  var end = new Date();
-  var endMilli = end.getTime();
+function sum() {
+  var calculation = Number(elementOne.value) + Number(elementTwo.value);
+  document.getElementById("Answer").innerHTML = calculation;
+}
 
-  var difMilli = endMilli - startMilli;
+function difference() {
+  var calculation = Number(elementOne.value) - Number(elementTwo.value);
+  document.getElementById("Answer").innerHTML = calculation;
+}
 
-  var difSecond = difMilli/1000;
+function product() {
+  var calculation = Number(elementOne.value) * Number(elementTwo.value);
+  document.getElementById("Answer").innerHTML = calculation;
+}
 
-  alert("The number of seconds is" + difSecond);
+function quotient() {
+  var calculation = Number(elementOne.value) / Number(elementTwo.value);
+  document.getElementById("Answer").innerHTML = calculation;
 }
