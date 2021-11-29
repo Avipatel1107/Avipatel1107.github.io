@@ -2,3 +2,52 @@ H1{
 font-size:50px;
 text-align:center;
 }
+U1{
+
+List-style-type:none;
+
+Margin:0;
+
+Padding:0;
+
+Display:flex;
+
+}
+
+
+
+Li {
+
+List-style-type:none;
+
+Margin:0 2vw;
+
+Font-size:3vh;
+
+}
+
+A:hover{
+
+Background-color:#4DA6FF;
+
+}
+
+A{
+
+Text-decoration:none;
+
+Color:black;
+
+Padding:2vw;
+
+}
+
+Nav{
+
+Width: 65vw;
+
+Background-color: #E6EEFF;
+
+Font-size:14px;
+
+}
