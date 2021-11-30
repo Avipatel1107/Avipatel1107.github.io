@@ -46,10 +46,7 @@ left: 0pt;
 background-color: cyan; 
 }
 
-H2{
-font-size:24px;
-color:000066;
-}
+
 <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_input_navbar Accessed:29 Nov 2020-->
 .bar .search-container button:hover {
   background: #ccc;
