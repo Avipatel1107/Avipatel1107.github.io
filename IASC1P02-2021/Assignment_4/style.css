@@ -7,54 +7,29 @@ H1{
 font-size:50px;
 text-align:center;
 }
-U1{
-Color:white;
-List-style-type:none;
-
-Margin:0;
-
-Padding:0;
-
-Display:flex;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242442;
 
 }
 
-
-
-Li {
-Color:white;
-List-style-type:none;
-
-Margin:0 2vw;
-
-Font-size:3vh;
-
+li {
+  float: left;
 }
 
-A:hover{
-
-Background-color:red;
-
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
 }
 
-A{
-Color:white;
-Text-decoration:none;
-
-Color:black;
-
-Padding:0.4vw;
-
-}
-
-Nav{
-
-Width: 35vw;
-Color:white;
-Background-color: #242442;
-
-Font-size:14px;
-
+li a:hover {
+  background-color: red;
 }
 footer { 
 position: fixed; 
