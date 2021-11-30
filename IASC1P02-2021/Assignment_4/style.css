@@ -2,9 +2,15 @@ Body{
 background-color:#D6EFFF	
 
 }
-
+Img{
+margin-top:-33px;
+Width:150px;
+Height:150px;
+Border:5px solid black;
+Float:left;
+}
 H1{
-font-size:50px;
+font-size:70px;
 text-align:center;
 }
 ul {
@@ -43,4 +49,30 @@ H2{
 font-size:24px;
 color:000066;
 }
+
+.bar .search-container button:hover {
+  background: #ccc;
+}
+
+.bar .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: -39px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.bar .search-container {
+  float: right;
+}
+
+.bar input[type=text] {
+  padding: 6px;
+  margin-top: -39px;
+  font-size: 17px;
+  border: none;
+}
+
 
