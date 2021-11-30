@@ -88,17 +88,16 @@ Color:#242442;
 
 .in input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
+  padding: 5px;
+  border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
 }
 
 .in input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #140369;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -107,11 +106,13 @@ Color:#242442;
 }
 
 .in input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #0636a6;
 }
 
 .in {
+  width: 550px;
+   margin-left: 350px;
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  background-color: crimson;
+  padding: 5px;
 }
