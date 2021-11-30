@@ -22,7 +22,7 @@ Display:flex;
 
 
 Li {
-
+Color:white;
 List-style-type:none;
 
 Margin:0 2vw;
@@ -33,12 +33,12 @@ Font-size:3vh;
 
 A:hover{
 
-Background-color:#4DA6FF;
+Background-color:red;
 
 }
 
 A{
-
+Color:white;
 Text-decoration:none;
 
 Color:black;
@@ -49,9 +49,9 @@ Padding:0.4vw;
 
 Nav{
 
-Width: 30vw;
-
-Background-color: #E6EEFF;
+Width: 35vw;
+Color:white;
+Background-color: #242442;
 
 Font-size:14px;
 
