@@ -81,5 +81,13 @@ color:000066;
   font-family: myFirstFont;
   src: url(pal.ttf);
 }
+H2,h3,h4,h5,h6{
+font-size:24px;
+Color:#242442;
+Text-decoration:underline;
+Text-align:center;
+}
 
-
+Section{
+Font-size:20px;
+}
