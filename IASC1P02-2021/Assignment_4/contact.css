@@ -116,3 +116,8 @@ Color:#242442;
   background-color: crimson;
   padding: 5px;
 }
+
+.dark-mode {
+  background-color: black;
+  color: crimson;
+}
