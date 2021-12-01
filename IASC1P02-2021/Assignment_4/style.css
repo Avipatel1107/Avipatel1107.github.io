@@ -109,3 +109,8 @@ Color:#242442;
 Text-decoration:underline;
 Text-align:center;
 }
+
+.dark-mode {
+  background-color: black;
+  color: crimson;
+}
