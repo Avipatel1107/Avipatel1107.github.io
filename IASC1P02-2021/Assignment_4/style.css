@@ -114,3 +114,13 @@ Text-align:center;
   background-color: black;
   color: crimson;
 }
+
+
+#clock{
+font-size: 30px;
+float:right;
+position: absolute;
+    right:10px;
+    top:10px;
+    
+}
