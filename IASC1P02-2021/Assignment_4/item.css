@@ -90,9 +90,7 @@ background-color: cyan;
 	display: block;
 
 }
-#content ul{
-background-color:#D6EFFF;	
-}
+
 
 
 .product-image  img{
@@ -200,7 +198,7 @@ Text-align:center;
 Color: crimson;
 }
 
-.dark-mode {
+.dark-mode{
   background-color: black;
   color: crimson;
 }
