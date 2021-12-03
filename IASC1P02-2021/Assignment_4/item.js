@@ -1,10 +1,11 @@
-//https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp, accessed Dec 1 2020
+//https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp, accessed Dec 1 2021
 
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
 
+//author:nemo011,https://www.studytonight.com/post/build-a-simple-digital-clock-with-javascript, Accessed December 1 2021
 function clock() {
       let date = new Date();
       let hrs = date.getHours();
