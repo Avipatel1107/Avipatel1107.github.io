@@ -3,6 +3,7 @@
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
+
 }
 
 //author:nemo011,https://www.studytonight.com/post/build-a-simple-digital-clock-with-javascript, Accessed December 1 2021
