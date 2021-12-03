@@ -6,6 +6,13 @@ function myFunction() {
 
 }
 
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
 //author:nemo011,https://www.studytonight.com/post/build-a-simple-digital-clock-with-javascript, Accessed December 1 2021
 function clock() {
       let date = new Date();
