@@ -2,7 +2,7 @@ Body{
 background-color:#D6EFFF	
 
 }
-Img{
+.header img{
 margin-top:-35px;
 Width:150px;
 Height:150px;
@@ -39,7 +39,7 @@ li a {
 li a:hover {
   background-color: crimson;
 }
-footer { 
+.footer { 
 position: fixed; 
 bottom: 0pt; 
 left: 0pt; 
@@ -78,7 +78,7 @@ background-color: cyan;
   src: url(pal.ttf);
 }
 
-H8{
+h2{
 font-size:50px;
 Text-decoration:underline;
 Text-align:center;
@@ -119,7 +119,7 @@ Color:crimson;
 
 .dark-mode {
   background-color: black;
-  color: crimson;
+  color: white;
 }
 
 #clock{
