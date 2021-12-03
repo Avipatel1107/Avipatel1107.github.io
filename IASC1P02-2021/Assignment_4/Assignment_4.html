@@ -89,6 +89,20 @@ To figure out ways to contact us please look in the navigation bar and find the 
 <br/>
 <br/>
 
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h2>Chat</h2>
+<br/>
+    <label for="msg"><b>Message</b></label>
+    <textarea name="msg"  rows="5" cols="33" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
 <div class="footer">
 BIG SALE!!!!! All items in the shop are now 30% off, for a limited time only 
 Lasting from December 1 - December 31
