@@ -115,7 +115,9 @@ Text-align:center;
   color: crimson;
 }
 
-
+.dark-mode{
+Color:white
+}
 #clock{
 font-size: 30px;
 float:right;
