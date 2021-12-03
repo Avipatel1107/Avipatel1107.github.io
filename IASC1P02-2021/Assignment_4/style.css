@@ -2,7 +2,7 @@ Body{
 background-color:#D6EFFF	
 
 }
-Img{
+.header img{
 margin-top:-35px;
 Width:150px;
 Height:150px;
@@ -39,7 +39,8 @@ li a {
 li a:hover {
   background-color: crimson;
 }
-footer { 
+
+.footer { 
 position: fixed; 
 bottom: 0pt; 
 left: 0pt; 
@@ -79,7 +80,7 @@ background-color: cyan;
 }
 H2,h3,h4,h5,h6{
 font-size:24px;
-Color:#242442;
+Color:crimson;
 Text-decoration:underline;
 Text-align:center;
 }
@@ -91,7 +92,7 @@ Font-size:20px;
 Float:right;
     width:250px;
     height:250px;
-    margin-top:-1px;
+    margin-top:6px;
     margin-right: 15px;
 }
 
@@ -112,12 +113,10 @@ Text-align:center;
 
 .dark-mode {
   background-color: black;
-  color: crimson;
+  color: white;
 }
 
-.dark-mode{
-Color:white
-}
+
 #clock{
 font-size: 30px;
 float:right;
