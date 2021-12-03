@@ -1,8 +1,8 @@
 Body{
-background-color:#D6EFFF	
+background-color:#D6EFFF;	
 
 }
-Img{
+.header img{
 margin-top:-35px;
 Width:150px;
 Height:150px;
@@ -39,7 +39,7 @@ li a {
 li a:hover {
   background-color: crimson;
 }
-footer { 
+.footer { 
 position: fixed; 
 bottom: 0pt; 
 left: 0pt; 
@@ -90,7 +90,9 @@ background-color: cyan;
 	display: block;
 
 }
-
+#content ul{
+background-color:#D6EFFF;	
+}
 
 
 .product-image  img{
@@ -115,7 +117,7 @@ margin-top:10px;
 
 .product-description {
 
-    margin-top:180px;
+    margin-top:10px;
 	padding: 1em;
 
 	background: #000;
