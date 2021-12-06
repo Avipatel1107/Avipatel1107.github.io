@@ -48,7 +48,7 @@ background-color: cyan;
 }
 
 
-<!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_input_navbar Accessed:29 Nov 2020-->
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_input_navbar Accessed:29 Nov 2020*/
 .bar .search-container button:hover {
   background: #ccc;
 }
