@@ -37,7 +37,7 @@ function clock() {
     }
     
     clock();
-
+//https://betterprogramming.pub/make-a-slideshow-with-automatic-and-manual-controls-using-html-css-and-javascript-b7e9305168f9, author: Matthew Croak, Accessed: December 5, 2021
 var slideIndex = 1;
 
 var myTimer;
