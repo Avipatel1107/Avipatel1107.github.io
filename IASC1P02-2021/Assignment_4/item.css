@@ -212,8 +212,9 @@ position: absolute;
     
 }
 
+
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 300px;
     position: relative;
     margin: auto
 }
@@ -226,9 +227,8 @@ position: absolute;
 }
 
 .mySlides img{
-Width: 200px;
-Height: 200px;
-Vertical-align: center;
+Width:298px;
+Height: 360px;
 }
 
 .prev,
