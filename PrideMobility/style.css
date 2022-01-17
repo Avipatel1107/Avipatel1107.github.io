@@ -4,16 +4,82 @@ background-color:#D6EFFF
 }
 
 .header img{
-margin-top:-35px;
-Width:150px;
-Height:150px;
+Width:230px;
+Height:230px;
 Border:5px solid black;
-Float:left;
+Float:right;
 }
 
 H1{
 font-size:70px;
 text-align:center;
-Font-family:myFirstFont;
+Color:rgb(255,211,0);
+}
+H2{
+font-size:35px;
+text-align:center;
+}
+H3{
+font-size:35px;
+text-align:center;
 Color:crimson;
+}
+H4{
+font-size:22px;
+Color:crimson;
+}
+H5{
+font-size:35px;
+text-align:center;
+}
+
+.head p,a{
+Font-size:27px;
+}
+
+.head img{
+Width:200px;
+Height:200px;
+margin-right: 25px;
+Border:2px solid black;
+Float:right;
+}
+
+.second p,a{
+Font-size:27px;
+}
+
+
+.second img{
+Width:200px;
+Height:200px;
+margin-right: 25px;
+Border:2px solid black;
+Float:left;
+}
+.second article{
+Font-size:27px;
+Color:crimson;
+}
+.third p,a{
+Font-size:27px;
+}
+.third p{
+ border: 2px solid black;   
+}
+Footer p2{
+Font-size:12px;
+}
+
+Footer p{
+Font-size:20px;
+Text-align: center;
+}
+
+Footer img{
+Float: left;
+Border: 2px solid black;
+    margin-top: -80px;
+
+
 }
