@@ -37,3 +37,4 @@ function convertToDecimal(){
     // Display the result if there is no error
         decimal_res_span.textContent = output;
 }
+
