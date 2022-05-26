@@ -1,81 +1,40 @@
-import "./styles.scss";
+var Decimal = prompt("Type a Number to convert to Binary. MUST BE LESS THAN OR EQUAL TO '255'!");
+while(Decimal > 255){
+Decimal = prompt("INCORRECT NUMBER MUST BE LESS THAN OR EQUAL TO '255'! Type a Number to conver to Binary.");
+}
+var array = [0,0,0,0,0,0,0,0];
 
-const App = () => {
-  const btn = document.getElementById("btn");
-  const input = document.getElementById("numberInp");
-  let results = [];
+if(Decimal >= 128){
+           array[0] = 1;
+   Decimal = Decimal - 128;
+           };
+if(Decimal >= 64){
+           array[1] = 1;
+  Decimal = Decimal - 64;
+           };
+if(Decimal >= 32){
+           array[2] = 1;
+  Decimal = Decimal - 32;
+           };
+if(Decimal >= 16){
+           array[3] = 1;
+  Decimal = Decimal - 16;
+           };
+if(Decimal >= 8){
+           array[4] = 1;
+  Decimal = Decimal - 8;
+           };
+if(Decimal >= 4){
+           array[5] = 1;
+  Decimal = Decimal - 4;
+           };
+if(Decimal >= 2){
+           array[6] = 1;
+  Decimal = Decimal - 2;
+           };
+if(Decimal >= 1){
+           array[7] = 1;
+  Decimal = Decimal - 1;
+           };
 
-  const deleteResult = (id) => {
-    results = results.filter((item) => item.id !== id);
-    renderResults(results, deleteResult);
-  };
-
-  const binaryLogic = (number) => {
-    const nIng = parseInt(number);
-    let resto = [];
-    let nAnt = 0;
-    let div = 0;
-    let rest = 0;
-    for (let i = 0; i < 30; i++) {
-      if (i === 0) {
-        div = nIng / 2;
-        rest = nIng % 2;
-      } else {
-        div = nAnt / 2;
-        rest = nAnt % 2;
-      }
-      resto.unshift(Math.trunc(rest));
-      nAnt = div;
-    }
-    while (resto[0] === 0) {
-      resto.shift();
-    }
-    return {
-      base: number,
-      binary: resto.join(""),
-      id: Math.random().toString(36).slice(2),
-    };
-  };
-
-  const renderResults = (results, deleteResult) => {
-    const ul = document.getElementById("results");
-    ul.innerHTML = "";
-    results.map((element) => {
-      let li = document.createElement("li");
-      let p = document.createElement("p");
-      let btnDelete = document.createElement("button");
-      li.className = "main--ul__li";
-      p.className = "main--ul__li--p";
-      p.textContent = `${element.base} = ${element.binary}`;
-      li.appendChild(p);
-      ul.appendChild(li);
-      btnDelete.className = "main--ul__li--btn";
-      btnDelete.textContent = "Delete";
-      btnDelete.addEventListener("click", () => deleteResult(element.id));
-      li.appendChild(btnDelete);
-    });
-  };
-
-  input.addEventListener("keyup", (x) => {
-    if (input.value != "") {
-      if (x.keyCode === 13) {
-        results.push(binaryLogic(input.value));
-        renderResults(results, deleteResult);
-        input.value = "";
-      }
-    }
-  });
-
-  btn.addEventListener("click", (x) => {
-    x.preventDefault();
-    if (input.value != "") {
-      results.push(binaryLogic(input.value));
-      renderResults(results, deleteResult);
-      input.value = "";
-    } else {
-      alert("Enter a number in the input");
-    }
-  });
-};
-
-App();
+document.write(array);
