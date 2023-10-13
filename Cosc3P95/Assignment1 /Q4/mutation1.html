@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">//Exception case prefix changed</p>
+<p class="p2"><br></p>
+<p class="p1">def filterData(data, limit, exceptions):</p>
+<p class="p1"><span class="Apple-converted-space">    </span>filtered_data = []</p>
+<p class="p1"><span class="Apple-converted-space">    </span>index = 0</p>
+<p class="p1"><span class="Apple-converted-space">    </span>while index &lt; len(data):</p>
+<p class="p1"><span class="Apple-converted-space">        </span>item = data[index]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if item in exceptions:</p>
+<p class="p1"><span class="Apple-converted-space">            </span>modified_item = "EXCEPTION_" + item</p>
+<p class="p1"><span class="Apple-converted-space">        </span>elif item &gt; limit:</p>
+<p class="p1"><span class="Apple-converted-space">            </span>modified_item = item * 2</p>
+<p class="p1"><span class="Apple-converted-space">        </span>else:</p>
+<p class="p1"><span class="Apple-converted-space">            </span>modified_item = item / limit <span class="Apple-converted-space"> </span></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>filtered_data.append(modified_item)</p>
+<p class="p1"><span class="Apple-converted-space">        </span>index += 1</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>return filtered_data</p>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>TestCase.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6897bb;}
+.s3 { color: #808080;}
+.s4 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+TestCase.java</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">java.util.Arrays</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">java.util.Random</span><span class="s0">;</span>
+
+<span class="s0">public class </span><span class="s1">TestCase {</span>
+    <span class="s0">public static int</span><span class="s1">[] createRandomArray(</span><span class="s0">int </span><span class="s1">length</span><span class="s0">, int </span><span class="s1">minValue</span><span class="s0">, int </span><span class="s1">maxValue) {</span>
+        <span class="s0">int</span><span class="s1">[] arr = </span><span class="s0">new int</span><span class="s1">[length]</span><span class="s0">;</span>
+        <span class="s1">Random r = </span><span class="s0">new </span><span class="s1">Random()</span><span class="s0">;</span>
+        <span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">i = </span><span class="s2">0</span><span class="s0">; </span><span class="s1">i &lt; length</span><span class="s0">; </span><span class="s1">i++) {</span>
+            <span class="s1">arr[i] = r.nextInt((maxValue - minValue) + </span><span class="s2">1</span><span class="s1">) + minValue</span><span class="s0">;</span>
+        <span class="s1">}</span>
+        <span class="s0">return </span><span class="s1">arr</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public static boolean </span><span class="s1">runTestCase(</span><span class="s0">int</span><span class="s1">[] arr</span><span class="s0">, int</span><span class="s1">[] reference) {</span>
+        <span class="s0">int</span><span class="s1">[] copy = Arrays.copyOf(arr</span><span class="s0">, </span><span class="s1">arr.length)</span><span class="s0">; </span><span class="s3">// Create a copy of the original array</span>
+        <span class="s1">Sort.bubbleSort(arr)</span><span class="s0">; </span><span class="s3">// Use the provided sorting algorithm</span>
+
+        <span class="s0">boolean </span><span class="s1">success = Arrays.equals(arr</span><span class="s0">, </span><span class="s1">reference)</span><span class="s0">;</span>
+
+        <span class="s1">System.out.println(</span><span class="s4">&quot;Input Array: &quot; </span><span class="s1">+ Arrays.toString(copy))</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s4">&quot;Output Array: &quot; </span><span class="s1">+ Arrays.toString(arr))</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s4">&quot;Expected Output: &quot; </span><span class="s1">+ Arrays.toString(reference))</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s4">&quot;Test Result: &quot; </span><span class="s1">+ (success ? </span><span class="s4">&quot;PASSED&quot; </span><span class="s1">: </span><span class="s4">&quot;FAILED&quot;</span><span class="s1">))</span><span class="s0">;</span>
+        <span class="s1">System.out.println()</span><span class="s0">;</span>
+
+        <span class="s0">return </span><span class="s1">success</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s0">int </span><span class="s1">numTests = </span><span class="s2">10</span><span class="s0">;  </span><span class="s3">// Number of random test cases</span>
+        <span class="s0">int </span><span class="s1">minLength = </span><span class="s2">5</span><span class="s0">;  </span><span class="s3">// Minimum length of the array</span>
+        <span class="s0">int </span><span class="s1">maxLength = </span><span class="s2">20</span><span class="s0">; </span><span class="s3">// Maximum length of the array</span>
+        <span class="s0">int </span><span class="s1">minValue = </span><span class="s2">1</span><span class="s0">;   </span><span class="s3">// Minimum integer value</span>
+        <span class="s0">int </span><span class="s1">maxValue = </span><span class="s2">100</span><span class="s0">; </span><span class="s3">// Maximum integer value</span>
+
+        <span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">test = </span><span class="s2">0</span><span class="s0">; </span><span class="s1">test &lt; numTests</span><span class="s0">; </span><span class="s1">test++) {</span>
+            <span class="s0">int </span><span class="s1">arrayLength = minLength + (</span><span class="s0">int</span><span class="s1">)(Math.random() * ((maxLength - minLength) + </span><span class="s2">1</span><span class="s1">))</span><span class="s0">;</span>
+            <span class="s0">int</span><span class="s1">[] randomArray = createRandomArray(arrayLength</span><span class="s0">, </span><span class="s1">minValue</span><span class="s0">, </span><span class="s1">maxValue)</span><span class="s0">;</span>
+            <span class="s0">int</span><span class="s1">[] referenceArray = Arrays.copyOf(randomArray</span><span class="s0">, </span><span class="s1">randomArray.length)</span><span class="s0">;</span>
+            <span class="s1">Arrays.sort(referenceArray)</span><span class="s0">; </span><span class="s3">// Sort with Java's built-in sorting for reference</span>
+
+
+
+            <span class="s1">runTestCase(randomArray</span><span class="s0">, </span><span class="s1">referenceArray)</span><span class="s0">;</span>
+        <span class="s1">}</span>
+    <span class="s1">}</span>
+
+
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
