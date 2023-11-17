@@ -4,10 +4,15 @@ import os
 from opentelemetry import trace
 from opentelemetry.exporter.jaeger.thrift import JaegerExporter
 from opentelemetry.sdk.trace import TracerProvider
-from opentelemetry.sdk.trace.export import BatchSpanProcessor,SimpleSpanProcessor,ConsoleSpanExporter
+from opentelemetry.sdk.trace.export import BatchSpanProcessor, SimpleSpanProcessor, ConsoleSpanExporter
 from opentelemetry.sdk.trace.sampling import TraceIdRatioBased
+import gzip
 
-# set up alwaysOn sampler for the server which will be on for 100% of the time
+# Feature Flags
+ENABLE_COMPRESSION = True
+ENABLE_CHUNKING_STREAMING = True
+
+# set up alwaysOn sampler for the server
 alwaysOn_sampler = TraceIdRatioBased(1)
 
 # set the sampler onto the global tracer provider
@@ -28,34 +33,42 @@ trace.get_tracer_provider().add_span_processor(
     BatchSpanProcessor(jaeger_exporter)
 )
 
+# Rate Limiting Parameters
+RATE_LIMIT = 5  # Maximum number of connections allowed per second
+rate_limit_lock = threading.Lock()
+
 def handle_client(client_socket):
     with tracer.start_as_current_span("handle_client"):
-
-        # Receive the file name from the client
         file_name = client_socket.recv(1024).decode()
 
-        # Specify the server directory where files will be saved
-        server_directory = "./Assign_2/Server_files/"
-        file_path = os.path.join(server_directory, os.path.basename(file_name))
+        try:
+            server_directory = "./Assign_2/Server_files/"
+            file_path = os.path.join(server_directory, os.path.basename(file_name))
 
-        # Start a new span for the file handling operation
-        with trace.get_tracer(__name__).start_as_current_span("handle_client"):
-            # Check if the file exists
-            if os.path.isfile(file_path):
-                # Open and read the file in binary mode
-                with open(file_path, 'rb') as file:
-                    # Read the file contents
-                    file_data = file.read(1024)
-                    while file_data:
-                        # Send the file data to the client
-                        client_socket.send(file_data)
-                        file_data = file.read(1024)
-            else:
-                # If the file does not exist, send an error message
-                client_socket.send("File not found".encode())
+            with trace.get_tracer(__name__).start_as_current_span("handle_client"):
+                if os.path.isfile(file_path):
+                    with open(file_path, 'rb') as file:
+                        while True:
+                            file_data = file.read(1024)
+                            if not file_data:
+                                break
+                            if ENABLE_COMPRESSION:
+                                compressed_data = gzip.compress(file_data)
+                            else:
+                                compressed_data = file_data
+                            if ENABLE_CHUNKING_STREAMING:
+                                client_socket.sendall(compressed_data)
+                            else:
+                                client_socket.sendall(file_data)
+                else:
+                    client_socket.send("File not found".encode())
 
-        # Close the client socket
-        client_socket.close()
+        finally:
+            client_socket.close()
+
+def rate_limited_accept(server):
+    with rate_limit_lock:
+        return server.accept()
 
 def main():
     # Create a tracer for the main function
@@ -73,8 +86,9 @@ def main():
     print(f"[*] Listening on {server_ip}:{server_port}")
 
     while True:
-        # Accept a client connection
-        client_socket, addr = server.accept()
+        # Accept a client connection with rate limiting
+        client_socket, addr = rate_limited_accept(server)
+
         print(f"[*] Accepted connection from {addr[0]}:{addr[1]}")
 
         # Create a new span to handle the client
