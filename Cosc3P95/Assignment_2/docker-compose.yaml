@@ -1,0 +1,12 @@
+version: '3'
+services:
+  advancedserver:
+    build: ./AdvancedServer
+    ports:
+      - "7777:7777"
+  advancedclient:
+    build: ./AdvancedClient
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "16686:16686"

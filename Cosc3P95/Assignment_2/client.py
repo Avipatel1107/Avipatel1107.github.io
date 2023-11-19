@@ -6,7 +6,7 @@ def send_file(file_name):
 
     # Set the server IP address and port
     server_ip = "127.0.0.1"
-    server_port = 9999
+    server_port = 7777
 
     # Create a client socket
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

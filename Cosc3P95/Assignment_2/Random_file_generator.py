@@ -3,7 +3,7 @@ import random
 
 
 # Specify the local folder path where you want to create the files.
-folder_path = "/Users/avipatel/desktop/Assign_2/files"
+folder_path = "./../Assign_2/client_files"
 
 # Function to create a random file of a specified size
 def create_random_file(file_path, size_bytes):
