@@ -91,8 +91,8 @@ def receive_file(file_name):
                     file.write(decompressed_data)
                     logging.info(f"Received data for file: {file_name}")
 
-                        # Introduce a deliberate delay only in some cases
-                    if random.random() < 0.9:  # 90% chance of introducing a delay
+                        # Introduce a deliberate delay only in some cases,bug will be fixed
+                    if random.random() < 0:  # 0% chance of introducing a delay
                         delay_seconds = random.uniform(0.5, 2.0)  # Random delay between 0.5 and 2.0 seconds
                         logging.info(f"Introducing a deliberate delay of {delay_seconds} seconds.")
                         time.sleep(delay_seconds)

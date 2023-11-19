@@ -1,0 +1,1009 @@
+*Results: Manual Instrumentation Server Terminal Output:-
+
+        "span_id": "0x4917c76e49e83406",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.162037Z",
+    "end_time": "2023-11-18T02:13:20.164035Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53851
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0x008b3a040f859df72072d46a84d51a4d",
+        "span_id": "0xaba8211635958d69",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.166036Z",
+    "end_time": "2023-11-18T02:13:20.166036Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0xf2980460914a126357a4ba157c574eca",
+        "span_id": "0x5516b6469ca33c68",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x8ca538b9d902e11d",
+    "start_time": "2023-11-18T02:13:20.167037Z",
+    "end_time": "2023-11-18T02:13:20.167037Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0xf2980460914a126357a4ba157c574eca",
+        "span_id": "0x8ca538b9d902e11d",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.166036Z",
+    "end_time": "2023-11-18T02:13:20.170099Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53852
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0x5ccbe024d38ea6b8984d8e471cae834d",
+        "span_id": "0x41a27d0d3cf2b61b",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.172110Z",
+    "end_time": "2023-11-18T02:13:20.172110Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0xbf5ffe62c788caddc85c068f04e5f036",
+        "span_id": "0xa4357847552fc4c2",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0xa85853941c01df90",
+    "start_time": "2023-11-18T02:13:20.173105Z",
+    "end_time": "2023-11-18T02:13:20.173105Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0xbf5ffe62c788caddc85c068f04e5f036",
+        "span_id": "0xa85853941c01df90",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.172110Z",
+    "end_time": "2023-11-18T02:13:20.175103Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53853
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0xc31cd92a93c8e06ac669bf42824deb31",
+        "span_id": "0xb0a2c44238bf4831",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.177106Z",
+    "end_time": "2023-11-18T02:13:20.177106Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0xcb8a4537841cb6c1a96166d70f8b52b9",
+        "span_id": "0xa63dc639659de7da",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x1840e3bdb1d464d8",
+    "start_time": "2023-11-18T02:13:20.178106Z",
+    "end_time": "2023-11-18T02:13:20.178106Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0xcb8a4537841cb6c1a96166d70f8b52b9",
+        "span_id": "0x1840e3bdb1d464d8",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.177106Z",
+    "end_time": "2023-11-18T02:13:20.179610Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53854
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0xf150091737de520cbb56c8e9d6a3cb7f",
+        "span_id": "0xf06eaae1e318d02e",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.182616Z",
+    "end_time": "2023-11-18T02:13:20.183619Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0xe67e92187065735c11636f27c3851b30",
+        "span_id": "0xf557ea45d9291241",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0xd1960438d382d486",
+    "start_time": "2023-11-18T02:13:20.183619Z",
+    "end_time": "2023-11-18T02:13:20.183619Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0xe67e92187065735c11636f27c3851b30",
+        "span_id": "0xd1960438d382d486",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.183619Z",
+    "end_time": "2023-11-18T02:13:20.185616Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53855
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0x2f0a5d00e2d636db91d75b3407c54d5c",
+        "span_id": "0xab4ebd6fa13c76a1",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.187619Z",
+    "end_time": "2023-11-18T02:13:20.187619Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x82622f340552157cfb74c193b6fc0855",
+        "span_id": "0xc4bd3bad810365bb",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x36f2b62dac1838fa",
+    "start_time": "2023-11-18T02:13:20.187619Z",
+    "end_time": "2023-11-18T02:13:20.187619Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x82622f340552157cfb74c193b6fc0855",
+        "span_id": "0x36f2b62dac1838fa",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.187619Z",
+    "end_time": "2023-11-18T02:13:20.191137Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53856
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0xb5db7569e899f7aae7bd1fc0cffc518a",
+        "span_id": "0xebf0a8fa7644c4f4",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.194136Z",
+    "end_time": "2023-11-18T02:13:20.194136Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x8d6f98e2da980108a1175e1c98e291b9",
+        "span_id": "0xcc7d7070eed3ebdf",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0xa1db9e7e3981f15d",
+    "start_time": "2023-11-18T02:13:20.195137Z",
+    "end_time": "2023-11-18T02:13:20.195137Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x8d6f98e2da980108a1175e1c98e291b9",
+        "span_id": "0xa1db9e7e3981f15d",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.194136Z",
+    "end_time": "2023-11-18T02:13:20.197649Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53857
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0x6a072f7e69e8248651da19c163127129",
+        "span_id": "0x1195d2776823416c",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.198650Z",
+    "end_time": "2023-11-18T02:13:20.198650Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x89510d595ee2424010829dad776c3629",
+        "span_id": "0x06834759a9b46236",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0xae6ec6768ff96afd",
+    "start_time": "2023-11-18T02:13:20.199972Z",
+    "end_time": "2023-11-18T02:13:20.199972Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x89510d595ee2424010829dad776c3629",
+        "span_id": "0xae6ec6768ff96afd",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.198650Z",
+    "end_time": "2023-11-18T02:13:20.201972Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53858
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0x1e95133bdc46069d18f21af4a8995c06",
+        "span_id": "0x2231f03eece3f46f",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.203971Z",
+    "end_time": "2023-11-18T02:13:20.204972Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x001f4b54e2f9f3444b187389c987502b",
+        "span_id": "0x9200a27186463b89",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x1445a96fa7ae72a5",
+    "start_time": "2023-11-18T02:13:20.204972Z",
+    "end_time": "2023-11-18T02:13:20.204972Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x001f4b54e2f9f3444b187389c987502b",
+        "span_id": "0x1445a96fa7ae72a5",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.203971Z",
+    "end_time": "2023-11-18T02:13:20.206970Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53859
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0x72ad1cca75a825046fceb73073620543",
+        "span_id": "0x11e241027a00f6fb",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.209479Z",
+    "end_time": "2023-11-18T02:13:20.209479Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x4b7faaf3a5bbbf3ba2fe638e1d91b30a",
+        "span_id": "0xd2f427ac210ca545",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x823da9f689d98cb3",
+    "start_time": "2023-11-18T02:13:20.209479Z",
+    "end_time": "2023-11-18T02:13:20.210486Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x4b7faaf3a5bbbf3ba2fe638e1d91b30a",
+        "span_id": "0x823da9f689d98cb3",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.209479Z",
+    "end_time": "2023-11-18T02:13:20.213485Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53860
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0x324f749567ae2b646d0e8e7b690af26f",
+        "span_id": "0x1373292ee04841c6",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.215485Z",
+    "end_time": "2023-11-18T02:13:20.216484Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x840297672f1f318a0723d5f0637736a2",
+        "span_id": "0xfa8cd09227532cff",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0xdde2fb6c3de15944",
+    "start_time": "2023-11-18T02:13:20.216484Z",
+    "end_time": "2023-11-18T02:13:20.216484Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x840297672f1f318a0723d5f0637736a2",
+        "span_id": "0xdde2fb6c3de15944",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.216484Z",
+    "end_time": "2023-11-18T02:13:20.217484Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53861
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0x51e816602cd99d3f68051952d3f283be",
+        "span_id": "0x7f36fbf11f7f90d2",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.220001Z",
+    "end_time": "2023-11-18T02:13:20.220001Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x3164f7e2337d679ba5e377a5193f4cb9",
+        "span_id": "0x8b9fb5ee9d69db2f",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0x33d160e746ef1bd9",
+    "start_time": "2023-11-18T02:13:20.220001Z",
+    "end_time": "2023-11-18T02:13:20.221001Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x3164f7e2337d679ba5e377a5193f4cb9",
+        "span_id": "0x33d160e746ef1bd9",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.220001Z",
+    "end_time": "2023-11-18T02:13:20.222001Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+[*] Accepted connection from 127.0.0.1:53862
+{
+    "name": "main",
+    "context": {
+        "trace_id": "0xaf2d58d6ed4c01accaf68f57a7b7d4e0",
+        "span_id": "0x6dac1b2172a168dc",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.223000Z",
+    "end_time": "2023-11-18T02:13:20.223000Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x2750ddaa5ce1cdf723f47f0210d66aef",
+        "span_id": "0xb1a0074f016e88d0",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": "0xc840c461f181bbca",
+    "start_time": "2023-11-18T02:13:20.224000Z",
+    "end_time": "2023-11-18T02:13:20.225006Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
+{
+    "name": "handle_client",
+    "context": {
+        "trace_id": "0x2750ddaa5ce1cdf723f47f0210d66aef",
+        "span_id": "0xc840c461f181bbca",
+        "trace_state": "[]"
+    },
+    "kind": "SpanKind.INTERNAL",
+    "parent_id": null,
+    "start_time": "2023-11-18T02:13:20.223000Z",
+    "end_time": "2023-11-18T02:13:20.226002Z",
+    "status": {
+        "status_code": "UNSET"
+    },
+    "attributes": {},
+    "events": [],
+    "links": [],
+    "resource": {
+        "attributes": {
+            "telemetry.sdk.language": "python",
+            "telemetry.sdk.name": "opentelemetry",
+            "telemetry.sdk.version": "1.21.0",
+            "service.name": "unknown_service"
+        },
+        "schema_url": ""
+    }
+}
