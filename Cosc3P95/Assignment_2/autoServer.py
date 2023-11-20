@@ -7,7 +7,7 @@ from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor,SimpleSpanProcessor,ConsoleSpanExporter
 from opentelemetry.sdk.trace.sampling import TraceIdRatioBased
 
-# set up alwaysOn sampler for the server which will be on for 100% of the time
+# set up alwaysOn sampler for the server 
 alwaysOn_sampler = TraceIdRatioBased(1)
 
 # set the sampler onto the global tracer provider

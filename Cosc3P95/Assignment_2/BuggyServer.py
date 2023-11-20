@@ -9,7 +9,6 @@ from opentelemetry.sdk.trace.sampling import TraceIdRatioBased
 import gzip
 import logging
 
-# Feature Flags
 ENABLE_COMPRESSION = True
 ENABLE_CHUNKING_STREAMING = True
 

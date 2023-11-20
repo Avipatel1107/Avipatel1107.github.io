@@ -11,7 +11,6 @@ import random
 import time
 import csv
 
-# Feature Flags
 ENABLE_COMPRESSION = True
 ENABLE_CHUNKING_STREAMING = True
 

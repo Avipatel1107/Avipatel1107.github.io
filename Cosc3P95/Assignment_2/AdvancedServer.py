@@ -8,7 +8,6 @@ from opentelemetry.sdk.trace.export import BatchSpanProcessor, SimpleSpanProcess
 from opentelemetry.sdk.trace.sampling import TraceIdRatioBased
 import gzip
 
-# Feature Flags
 ENABLE_COMPRESSION = True
 ENABLE_CHUNKING_STREAMING = True
 
