@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>System_User_Refactored.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6897bb;}
+.s3 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+System_User_Refactored.java</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">java.util.HashMap</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">java.util.Map</span><span class="s0">;</span>
+
+<span class="s0">public class </span><span class="s1">System_User_Refactored {</span>
+    <span class="s0">private </span><span class="s1">Map&lt;String</span><span class="s0">, </span><span class="s1">String&gt; users = </span><span class="s0">new </span><span class="s1">HashMap&lt;&gt;()</span><span class="s0">;</span>
+    <span class="s0">private </span><span class="s1">Map&lt;String</span><span class="s0">, </span><span class="s1">Integer&gt; failedAttempts = </span><span class="s0">new </span><span class="s1">HashMap&lt;&gt;()</span><span class="s0">;</span>
+    <span class="s0">private static final int </span><span class="s1">MAX_ATTEMPTS = </span><span class="s2">3</span><span class="s0">;</span>
+
+    <span class="s0">public void </span><span class="s1">registerUser(String username</span><span class="s0">, </span><span class="s1">String password) {</span>
+        <span class="s1">users.put(username</span><span class="s0">, </span><span class="s1">password)</span><span class="s0">;</span>
+        <span class="s1">failedAttempts.put(username</span><span class="s0">, </span><span class="s2">0</span><span class="s1">)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">public </span><span class="s1">String login(String username</span><span class="s0">, </span><span class="s1">String password) {</span>
+        <span class="s0">if </span><span class="s1">(isEmpty(username) || isEmpty(password)) {</span>
+            <span class="s0">return </span><span class="s3">&quot;Username/Password cannot be empty&quot;</span><span class="s0">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">if </span><span class="s1">(!isUserRegistered(username)) {</span>
+            <span class="s0">return </span><span class="s3">&quot;Invalid Credentials&quot;</span><span class="s0">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">if </span><span class="s1">(isAccountLocked(username)) {</span>
+            <span class="s0">return </span><span class="s3">&quot;Account locked due to too many failed login attempts&quot;</span><span class="s0">;</span>
+        <span class="s1">}</span>
+
+        <span class="s0">if </span><span class="s1">(isPasswordCorrect(username</span><span class="s0">, </span><span class="s1">password)) {</span>
+            <span class="s1">resetFailedAttempts(username)</span><span class="s0">;</span>
+            <span class="s0">return </span><span class="s3">&quot;Successful Login, Redirecting to Dashboard&quot;</span><span class="s0">;</span>
+        <span class="s1">} </span><span class="s0">else </span><span class="s1">{</span>
+            <span class="s1">increaseFailedAttempts(username)</span><span class="s0">;</span>
+            <span class="s0">return </span><span class="s3">&quot;Invalid Credentials&quot;</span><span class="s0">;</span>
+        <span class="s1">}</span>
+    <span class="s1">}</span>
+
+    <span class="s0">private boolean </span><span class="s1">isEmpty(String str) {</span>
+        <span class="s0">return </span><span class="s1">str == </span><span class="s0">null </span><span class="s1">|| str.isEmpty()</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">private boolean </span><span class="s1">isUserRegistered(String username) {</span>
+        <span class="s0">return </span><span class="s1">users.containsKey(username)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">private boolean </span><span class="s1">isAccountLocked(String username) {</span>
+        <span class="s0">return </span><span class="s1">failedAttempts.get(username) &gt;= MAX_ATTEMPTS</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">private boolean </span><span class="s1">isPasswordCorrect(String username</span><span class="s0">, </span><span class="s1">String password) {</span>
+        <span class="s0">return </span><span class="s1">users.get(username).equals(password)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">private void </span><span class="s1">resetFailedAttempts(String username) {</span>
+        <span class="s1">failedAttempts.put(username</span><span class="s0">, </span><span class="s2">0</span><span class="s1">)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">private void </span><span class="s1">increaseFailedAttempts(String username) {</span>
+        <span class="s1">failedAttempts.put(username</span><span class="s0">, </span><span class="s1">failedAttempts.get(username) + </span><span class="s2">1</span><span class="s1">)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+
+</pre>
+</body>
+</html>
